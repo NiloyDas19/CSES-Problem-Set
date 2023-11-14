@@ -16,7 +16,7 @@ int main()
         sum += (base - pre) * i;
     }
     int t = 1;
-    // cin >> t;
+    cin >> t;
     while(t--){
         ll k; cin >> k;
         ll low = 1 , high = 1e17 + 5;
