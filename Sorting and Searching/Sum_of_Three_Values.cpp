@@ -23,20 +23,9 @@ int main()
     for (i = 0; i < n; i++)
     {
         ll remain = x - nums[i].F;
-        j = 0, k = n - 1;
+        j = i+1 , k = n - 1;
         while (j < k)
         {
-            if (j == i)
-            {
-                j++;
-                continue;
-            }
-            if (k == i)
-            {
-                k--;
-                continue;
-            }
-
             if (nums[j].F + nums[k].F == remain)
             {
                 paici = true;
