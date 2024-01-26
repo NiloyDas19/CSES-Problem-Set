@@ -11,7 +11,6 @@ using ll = long long;
 // order_of_key(val)// Give the  index of the specific value
 
 
-
 int main()
 {
     ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
@@ -33,9 +32,3 @@ int main()
     cout << "\n";
     return 0;
 }
-
-
-
-
-
-
